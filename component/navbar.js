@@ -44,14 +44,14 @@ export default function Navbar() {
 
               <Link
                 href="/"
-                className="hover:text-orange-600 transition"
+                className="hover:text-orange-600 transition text-gray-700"
               >
                 Home
               </Link>
 
               <Link
                 href="https://wa.me/08136555901"
-                className="hover:text-orange-600 transition"
+                className="hover:text-orange-600 transition text-gray-700"
               >
                 Contact
               </Link>
@@ -61,7 +61,7 @@ export default function Navbar() {
                   setShowModal(true);
                   setSelectedCity(null);
                 }}
-                className="hover:text-orange-600 transition"
+                className="hover:text-orange-600 transition text-gray-700"
               >
                 Lokasi
               </button>
