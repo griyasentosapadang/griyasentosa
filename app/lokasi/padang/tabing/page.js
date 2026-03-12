@@ -9,7 +9,7 @@ export default function Home() {
       <section className="min-h-screen bg-[url('/src/bg1.png')] bg-cover bg-center flex items-center text-white px-6">
         <div className="max-w-6xl mx-auto w-full">
 
-          <h2 className="mt-20 text-3xl sm:text-4xl md:text-5xl font-bold mb-4 max-w-xl leading-tight text-center md:text-left">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 max-w-xl leading-tight text-center md:text-left">
             Wujudkan Rumah Impian Anda di Griya Sentosa Padang
           </h2>
 
@@ -23,7 +23,7 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button className="hidden sm:block bg-white/30 backdrop-blur-sm ring-1 ring-white text-white font-sans px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 hover:text-black transition">
+            <button className="bg-white/30 backdrop-blur-sm ring-1 ring-white text-white font-sans px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 hover:text-black transition">
               Lihat Unit Tersedia
             </button>
 
@@ -53,7 +53,7 @@ export default function Home() {
               <h4 className="text-xl font-semibold mb-4 text-orange-600">
                 Lokasi Strategis
               </h4>
-              <p>
+              <p className="text-gray-600">
                 Dekat dengan Stasiun Tabing, Pasar Tabing, Universitas Negeri
                 Padang, dan Bandara Internasional Minangkabau.
               </p>
@@ -63,7 +63,7 @@ export default function Home() {
               <h4 className="text-xl font-semibold mb-4 text-orange-600">
                 Desain Modern
               </h4>
-              <p>
+              <p className="text-gray-600">
                 Rumah minimalis dengan tata ruang optimal dan pencahayaan
                 alami.
               </p>
@@ -73,7 +73,7 @@ export default function Home() {
               <h4 className="text-xl font-semibold mb-4 text-orange-600">
                 Lingkungan Asri
               </h4>
-              <p>
+              <p className="text-gray-600">
                 Suasana tenang, nyaman, dan cocok untuk keluarga muda maupun
                 investasi.
               </p>
@@ -84,7 +84,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-20 bg-gray-700/70 text-white text-center px-6">
+      <section className="py-16 md:py-20 bg-gray-800 text-white text-center px-6">
         
         <h3 className="text-2xl md:text-3xl font-bold mb-6">
           Miliki Hunian Impian Anda Sekarang
