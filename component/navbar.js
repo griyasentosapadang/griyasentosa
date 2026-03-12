@@ -90,7 +90,7 @@ export default function Navbar() {
               <Link
                 href="/"
                 onClick={() => setMenuOpen(false)}
-                className="hover:text-orange-600 transition"
+                className="hover:text-orange-600 transition text-gray-700"
               >
                 Home
               </Link>
@@ -98,7 +98,7 @@ export default function Navbar() {
               <Link
                 href="https://wa.me/08136555901"
                 onClick={() => setMenuOpen(false)}
-                className="hover:text-orange-600 transition"
+                className="hover:text-orange-600 transition text-gray-700"
               >
                 Contact
               </Link>
@@ -109,7 +109,7 @@ export default function Navbar() {
                   setShowModal(true);
                   setSelectedCity(null);
                 }}
-                className="text-left hover:text-orange-600 transition"
+                className="text-left hover:text-orange-600 transition text-gray-700"
               >
                 Lokasi
               </button>
