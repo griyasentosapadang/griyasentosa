@@ -78,7 +78,7 @@ export default function Home() {
                     Padang
                   </button>
 
-                  <button
+                  {/* <button
                     onClick={() => pilihLokasi("pekanbaru")}
                     className="w-full bg-orange-500 text-white py-3 rounded-xl hover:bg-orange-600 transition"
                   >
@@ -90,7 +90,7 @@ export default function Home() {
                     className="w-full bg-orange-500 text-white py-3 rounded-xl hover:bg-orange-600 transition"
                   >
                     Lampung
-                  </button>
+                  </button> */}
 
                 </div>
               </>
@@ -111,12 +111,12 @@ export default function Home() {
                     Tabing
                   </button>
 
-                  <button
+                  {/* <button
                     onClick={() => pilihAreaPadang("jati")}
                     className="w-full bg-orange-500 text-white py-3 rounded-xl hover:bg-orange-600 transition"
                   >
                     Jati
-                  </button>
+                  </button> */}
 
                 </div>
 
