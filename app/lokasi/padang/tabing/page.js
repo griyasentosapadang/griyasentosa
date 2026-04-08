@@ -23,12 +23,14 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button className="bg-white/30 backdrop-blur-sm ring-1 ring-white text-white font-sans px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 hover:text-black transition">
+            <a href="/src/Unit Tersedia Perumahan Griya Sentosa Padang.pdf" 
+            download
+            className="bg-white/30 backdrop-blur-sm ring-1 ring-white text-white font-sans px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 hover:text-black transition">
               Lihat Unit Tersedia
-            </button>
+            </a>
 
             <a
-              href="/src/brosur.pdf"
+              href="/src/Brosur Perumahan Griya Sentosa Padang.pdf"
               download
               className="bg-orange-500 ring-1 ring-white text-white font-sans px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 hover:text-orange-500 transition text-center"
             >
