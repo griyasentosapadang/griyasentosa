@@ -22,7 +22,7 @@ export default function Home() {
             Lingkungan Asri Mulai dari Rp 450 juta.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start text-center">
             <a href="/src/Unit Tersedia Perumahan Griya Sentosa Padang.pdf" 
             download
             className="bg-white/30 backdrop-blur-sm ring-1 ring-white text-white font-sans px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 hover:text-black transition">
